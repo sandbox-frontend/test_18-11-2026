@@ -1,0 +1,164 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+    html{
+        scroll-behavior: smooth;
+    }
+    
+    body{
+        font-family: Arial, Sans-serif;
+        background: lightblue;
+        transition: background 0.3s, color 0.3s;
+        
+    }
+    
+    body.dark{
+        background: #121212;
+        color: #ffffff;
+    }
+    
+    .site-header{
+        padding: 20px;
+        background: lightgrey;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        transition: background 0.3s;
+        border-radius: 0 0 50px 50px;
+    }
+    
+    .site-header.dark{
+        background: #1e1e2e;
+        color: #ffffff;
+    }
+    
+    nav ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+        font-size: 22px;
+    }
+    
+    nav ul li{
+        list-style: none;
+    }
+    
+    a{
+        text-decoration: none;
+        color: black;
+        transition: color 0.3s;
+    }
+    
+    a.dark{
+        color: #bb86fc;
+    }
+    
+    a.dark:hover{
+        color: red;
+    }
+    
+    a:hover{
+        color: red;
+    }
+    
+    main{
+        min-height: 100vh;
+    }
+    
+    .about{
+        min-height: 50vh;
+        margin-top: 10px;
+    }
+    
+    p{
+        padding: 10px 20px;
+    }
+    
+    h3{
+        text-align: center;
+    }
+    
+    article.about ul{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        padding: 0 75px;
+        gap: 15px;
+    }
+    
+    article.about ul li{
+        text-align: left;
+        color: green;
+        transition: color 0.3s;
+    }
+    
+    article.about ul li.dark{
+        color: orange;
+    }
+    
+    .portfolio{
+        min-height: 50vh;
+    }
+    
+    footer{
+        min-height: 50vh;
+        color: black;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background: lightgrey;
+        padding: 20px;
+    }
+    
+    footer .social-media{
+        display: flex;
+        justify-content: center;
+        padding: 10px 30px;
+        color: lightblue;
+        gap: 20px;
+    }
+    
+    footer ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: left;
+        gap: 10px;
+        
+    }
+    
+    footer ul li{
+        color: black;
+        transition: color 0.3s;
+    }
+    
+    footer ul li.dark{
+        color: white;
+    }
+    
+    h2{
+        text-align: center;
+    }
+    
+    .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+    }
+    
+    .button{
+        padding: 15px;
+        font-size: 25px;
+        border: none;
+        border-radius: 25px;
+        background: lightgrey;
+    }
+    
